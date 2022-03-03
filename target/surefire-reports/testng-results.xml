@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VTiger App Regression Test Suite" duration-ms="27345" started-at="2022-03-03T09:21:25Z" finished-at="2022-03-03T09:21:53Z">
+    <groups>
+    </groups>
+    <test name="Regression Funional Sanity Test" duration-ms="27345" started-at="2022-03-03T09:21:25Z" finished-at="2022-03-03T09:21:53Z">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="setUp" is-config="true" duration-ms="10950" started-at="2022-03-03T14:51:25Z" finished-at="2022-03-03T14:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="verifyLoginPageHeaderTest" duration-ms="207" started-at="2022-03-03T14:51:36Z" finished-at="2022-03-03T14:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="verifyLoginPageTitleTest" duration-ms="23" started-at="2022-03-03T14:51:37Z" finished-at="2022-03-03T14:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="loginTest" duration-ms="8910" started-at="2022-03-03T14:51:37Z" finished-at="2022-03-03T14:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logOutofApp()[pri:5, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="logOutofApp" duration-ms="6458" started-at="2022-03-03T14:51:45Z" finished-at="2022-03-03T14:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutofApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6e4784bc]" name="tearDown" is-config="true" duration-ms="638" started-at="2022-03-03T14:51:52Z" finished-at="2022-03-03T14:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </test> <!-- Regression Funional Sanity Test -->
+  </suite> <!-- VTiger App Regression Test Suite -->
+</testng-results>

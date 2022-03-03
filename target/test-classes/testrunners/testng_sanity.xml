@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="VTiger App Regression Test Suite">
+
+	<listeners>
+		
+		 <listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+		
+		<!-- <listener class-name="com.qa.freshworks.listeners.ScreenshotListener"/>
+			 <listener class-name="com.qa.hubspot.listeners.pdfListener" />
+			 <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
+			  <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" />
+			   -->
+	</listeners>
+
+	<test name="Regression Funional Sanity Test" verbose="2">
+
+		<classes>
+			<class name="com.qa.hubspot.test.LoginPageTest" />
+			<!-- <class name="com.qa.hubspot.test.HomePageTest" /> -->
+
+		</classes>
+
+	</test> <!-- Default test -->
+
+</suite> <!-- Default suite -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VTiger App Regression Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.hubspot.listeners.ScreenshotListener"/>
+  </listeners>
+  <test verbose="2" name="Regression Funional Sanity Test">
+    <classes>
+      <class name="com.qa.hubspot.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Regression Funional Sanity Test -->
+  <test name="Regression Funional Sanity Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageHeaderTest"/>
+          <include name="logOutofApp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression Funional Sanity Test(failed) -->
+</suite> <!-- Failed suite [VTiger App Regression Test Suite] -->

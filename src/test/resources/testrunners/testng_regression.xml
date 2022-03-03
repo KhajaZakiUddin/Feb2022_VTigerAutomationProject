@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="VTiger App Regression Test Suite" >
+	<test name="Regression Funional Test" verbose="2" >
+	
+		<classes>
+			<class name="com.qa.hubspot.test.LoginPageTest" />
+			<class name="com.qa.hubspot.test.HomePageTest" />
+		</classes>
+		
+	</test> <!-- Default test -->
+	
+</suite> <!-- Default suite -->
