@@ -20,6 +20,7 @@ public class LoginPage extends BasePage {
 	 By loginBtn = By.xpath("//button[text()='Sign in']");
 	 By logoHeader = By.xpath("//img[@class='mb-4']");
 	 By errorMessage = By.xpath("//p[text()='Invalid credentials']");
+	 By random = By.id("randomId");
 	 
 	//2. Create the Constructor of page class
 	 public LoginPage(WebDriver driver){
