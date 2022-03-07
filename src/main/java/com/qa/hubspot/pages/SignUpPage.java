@@ -11,5 +11,7 @@ public class SignUpPage extends BasePage {
 	public SignUpPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
+	System.out.pringtln("Launch the Sign Up Page")
 
 }
