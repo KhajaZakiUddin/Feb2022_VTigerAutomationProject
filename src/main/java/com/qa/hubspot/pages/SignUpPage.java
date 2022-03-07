@@ -12,6 +12,6 @@ public class SignUpPage extends BasePage {
 		this.driver = driver;
 	}
 	
-	System.out.pringtln("Launch the Sign Up Page")
+	System.out.println("Launch the Sign Up Page")
 
 }
