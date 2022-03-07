@@ -13,5 +13,6 @@ public class ProfilePage extends BasePage {
 	}
 
   public void get(){
-    System.out.println("Get Profile Page")
+    System.out.println("Get Profile Page");
+}
 }
